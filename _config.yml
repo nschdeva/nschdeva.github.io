@@ -6,38 +6,38 @@ repository: Git repository where your resume will be hosted, only required if yo
 version: 2
 
 # Personal info
-name: Your Name
-title: Your job title
-email: Your email (optional)
+name: Nikhil Sachdeva
+title: MSCS student/Senior Software Engineer
+email: nschdeva@gmail.com
 # email_title: Email (Email title override)
-phone: Your phone number (optional)
+phone: +1 (404)259-1873
 # phone_title: Phone (Phone title override)
-website: Your website (eg. https://google.com)(optional)
+website: nschdeva.github.io
 # website_title: Web (Website title override)
 
 # Dark Mode (true/false/never)
-darkmode: false
+darkmode: true
 
 # Social links
-twitter_username: jekyllrb
-github_username:  jekyll
-stackoverflow_username: "00000001"
-dribbble_username: jekyll
-facebook_username: jekyll
-flickr_username: jekyll
-instagram_username: jekyll
-linkedin_username: jekyll
-xing_username: jekyll
-pinterest_username: jekyll
-youtube_username: jekyll
-orcid_username: 0000-0000-0000-0000
-googlescholar_username: D847cGsAAAAJ
+twitter_username: nschdeva
+github_username:  nschdeva
+# stackoverflow_username: "00000001"
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+instagram_username: nschdeva
+linkedin_username: nschdeva
+# xing_username: jekyll
+# pinterest_username: jekyll
+# youtube_username: jekyll
+# orcid_username: 0000-0000-0000-0000
+# googlescholar_username: D847cGsAAAAJ
 
 # Additional icon links
-additional_links:
-- title: Link name
-  icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-  url: Link url (eg. https://google.com)
+# additional_links:
+# - title: Link name
+#   icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+#   url: Link url (eg. https://google.com)
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
 #   url: Link url (eg. https://google.com)
@@ -50,15 +50,25 @@ additional_links:
 
 # About Section
 # about_title: About Me (Use this to override about section title)
-about_profile_image: Directory of profile image (eg. images/profile.jpg)
+about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
+  An ex-Senior Software Engineer, currently studying for a Master's degree in Computer Science @ Georgia Tech. I have 3 years worth of experience in Software Engineering, leading a development team, liaising with business teams and assisting in product maagement.
 
-  You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
-    - Lists
-    - Tables
-    - <a href="google.com">Links</a>
-    - Images ![alt text](/images/landscape-trees.jpg "Trees")
+  I'm a fast learning, quickly adapting to any new technologies and architectures you can give me. Experienced in working on Azure and on-premises systems, in various departments like:
+  - DevOps
+  - Object Oriented Programming
+  - Machine Learning
+  - Data Management
+  - Framework Design.
+
+  For more details, do check out the [Projects]('/Projects') I've covered personally and professionally!
+# Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
+
+# You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
+#   - Lists
+#   - Tables
+#   - <a href="google.com">Links</a>
+#   - Images ![alt text](/images/landscape-trees.jpg "Trees")
 
 content:
   - title: Projects # Title for the section
@@ -67,57 +77,162 @@ content:
       - layout: left
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
-        title: Project name
-        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        link_text: Link Text
-        additional_links:
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        title: Transparency in Coverage
+        # link: (Link to project (eg. sproogen.github.io/modern-resume-theme)(optional))
+        link_text: [Proprietary]
+        # additional_links:
+        #   - title:  Github page for project (eg. sproogen/modern-resume-theme)
+        #     icon: fab fa-github
+        #     url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        #   - title:  Github page for project (eg. sproogen/modern-resume-theme)
+        #     icon: fab fa-github
+        #     url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
         quote: >
-          Short overview of the project (optional)
+          Lead Developer for a US regulatory project, accumulating, transforming, and sending aggregated healthcare data.
         description: | # this will include new lines to allow paragraphs
-          Description about the work on/with the project
+          * Highly modular config-driven Price Transparency Engine built in Scala/Spark, running in Azure
+          * Technical advisor/Point of Contact for the product manager and business teams.
+          * Architect for the Engine Design and Data Model optimization: reduced running time from approx 7 hours to 1 hour 10 minutes.
+          * Initial design completed 4 months ahead of schedule under my lead, implementing industry-best engineering practices.
+
+      - layout: left
+        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
+        title: Data Quality Framework
+        # link: (Link to project (eg. sproogen.github.io/modern-resume-theme)(optional))
+        link_text: [Proprietary]
+        quote: >
+          Proprietary framework to identify schema and data mismatch in Integrated Data Warehouse.
+        description: | # this will include new lines to allow paragraphs
+          * Designed a proprietary framework to identify schema and data mismatch in the hybrid-model Integrated Data Warehouse.
+          * Designed the modular, config-driven backend in Python3 from scratch to collate gathered data across 4 hosts.
+          * Grafana-based Dashboard for real-time monitoring for business teams.
+
+      - layout: left
+        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
+        title: ECG Signal Classification
+        # link: (Link to project (eg. sproogen.github.io/modern-resume-theme)(optional))
+        link_text: [Proprietary]
+        quote: >
+          Classifying Cardiovascular Health from ECG Signals with Classical and Modern Machine Learning Techniques
+        description: | # this will include new lines to allow paragraphs
+          * Implemented, evaluated and analyzed various Machine Learning models to compare performance for ECG Signal classification.
+          * 6 learning models: FCNN, LSTM, SVM, Transformers, KMeans, GMM
+          * Used a variety of libraries including pytorch and tensorflow, with detailed analysis of test results and training performance.
+
+      - layout: left
+        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
+        title: Vulnerability Analysis for Secure Connections
+        # link: (Link to project (eg. sproogen.github.io/modern-resume-theme)(optional))
+        link_text: [Proprietary]
+        quote: >
+          Config-driven Python3 program for classifying Cipher Suite configurations
+        description: | # this will include new lines to allow paragraphs
+          * Config-driven Python3 program for pulling Cipher Suite configurations in establishing SSL/TLS connections.
+          * Identifies weaknesses and vulnerabilities based on given parameters & gives customized and formatted output.
+          * Cross-compatible with an automated flagging system through the machine-readable XML output.
+
+      - layout: left
+        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
+        title: Custom Blockchain based CPS for Solid Waste Management
+        # link: (Link to project (eg. sproogen.github.io/modern-resume-theme)(optional))
+        link_text: [Proprietary]
+        quote: >
+          Cyber Physical System for monitoring, managing and validating work done by workers in solid waste management.
+        description: | # this will include new lines to allow paragraphs
+          * Published: Procedia Computer Science 165:41-49; DOI: 10.1016/j.procs.2020.01.068
+          * International Conference on Recent Trends in Advanced Computing 2019, ICRTAC 2019
+          * Included a working model on Arduino Uno with WiFi, Infrared modules, and an automated local-system server running custom blockchain.
+      
+      - layout: left
+        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
+        title: Product Management System
+        # link: (Link to project (eg. sproogen.github.io/modern-resume-theme)(optional))
+        link_text: [Proprietary]
+        quote: >
+          RESTful API based Product Inventory Management System
+        description: | # this will include new lines to allow paragraphs
+          * Qualified for an exclusive 8-week workshop project on REST API Design & Fundamentals
+          * Taught by professional developers in PayPal Inc.
+          * Developed in ExpressJS, Swagger 2.0
+
   - title: Experience
     layout: list
     content:
       - layout: right
-        title: Company name
-        sub_title: Job title
-        caption: Date Range (eg. November 2016 - present)
-        link: Link to company (optional)
-        quote: >
-          Short description of the company (optional)
+        title: Optum (United Health Group)
+        sub_title: Senior Software Engineer (formerly Associate Software Engineer) - Data Management and Analysis division
+        caption: July 2020 - August 2023
+        link: https://www.optum.com/
+        # quote: 
         description: | # this will include new lines to allow paragraphs
-          Description of role
+          Joined as an Associate Software Engineer straight out of undergraduate studies, and earned a promotion within 1.5 years for the quality of my work.
+          Served as lead developer for a regulatory project as mentioned above, also assisting in various other side projects like audits for new data management software, healthcare data augmentation and analysis, and so on.
+
+      - layout: right
+        title: National Informatics Centre
+        sub_title: Application Security Intern
+        caption: May 2019 - June 2019
+        link: https://www.meity.gov.in/content/nic
+        # quote: 
+        description: | # this will include new lines to allow paragraphs
+          Served an industrial internship in the Application Security division of NIC under the Ministry of Electronics and Information Technology, Government of India.
+          Worked on website security as mentioned above, with my work serving as a module that fed into a larger automated alert system.
+
   - title: Education
     layout: list
     content:
       - layout: top-right
-        title: Institution name
-        sub_title: Qualifications (eg. BA Performing Arts)
-        caption: Date Range (eg. 2016 - 2019)
+        title: Georgia Institute of Technology
+        sub_title: MS Computer Science
+        caption: August 2023 - current
         quote: >
-          Short institution or course description (optional)
+          Transforming Tomorrow - Georgia Tech
         description: | # this will include new lines to allow paragraphs
-          Description of qualification
+          Currently 1 semester down with a GPA of 4.00, (tentatively) graduating in December 2024. Achieved perfect grades in Machine Learning, Mobile Computing and IoT, Computer Networks and Software Analysis and Testing.
+
+      - layout: top-right
+        title: Vellore Institute of Technology
+        sub_title: B.Tech. Computer Science and Engineering
+        caption: July 2016 - May 2020
+        quote: >
+          Where Innovation meets Education - VIT
+        description: | # this will include new lines to allow paragraphs
+          4 year Bachelors program, majoring in Computer Science and Engineering with a GPA of 8.83 out of 10.
+          Excelled in particular in programming courses, in object-oriented programming, software engineering paradigms, computer networking, web development and so on.
+
+- title: Achievements
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
-      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
+      My hobbies include various sports, esports, hiking, reading, and quizzing.
+      My professional life has been very inclusive, and I keep exploring tech in my personal life, allowing me to learn all these following Skills:
+        - Certification
+          - Azure Data Fundamentals [DP-900] Microsoft Certified: June 2022
+        - Programming
+          - Java, Scala, Spark, C/C++, Python, Go, Kotlin, JavaScript, ExpressJS, SQL, LATEX,HTML, CSS, PHP
+        - Applications
+          - AbInitio, Databricks, Jupyter, Grafana, PowerBI, Tableau, JetBrains IDEA, PyCharm, VS Code, MATLAB/SciLab, RStudio, GraphQL, REST API, OpenAPI
+        - DBs & Servers
+          - MySQL, PostgreSQL, MongoDB, Apache, Netezza, IBM AS/400
+        - Soft Skills
+          - Highly adaptable to new technologies, quick-learner, time management, detail-oriented, quick-thinking, team player, creative, leadership, problem-solving, communication skills
 
-      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
 
 # Footer
 footer_show_references: true
-# references_title: References on request (Override references text)
+references_title: References on request
 
 # Build settings
 # theme: modern-resume-theme (Use this is you are hosting your resume yourself)
-# remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
+remote_theme: nschdeva/nschdeva.github.io (Use this if you are hosting your resume on GitHub)
 
 sass:
   sass_dir: _sass
