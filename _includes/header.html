@@ -121,6 +121,11 @@
           {{ site.website_title | default: "Web" }}: {% include a.html href=site.website %}{{ site.website | escape }}</a>
         </p>
       {%- endif -%}
+      {%- if site.location -%}
+        <p>
+          {{ site.location_title | default: "Location" }}: <a href="https://www.google.com/maps?q={{site.location}}" target="_blank">{{ site.location | escape }}</a>
+        </p>
+      {%- endif -%}
     </div>
   </div>
 </div>
