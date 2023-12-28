@@ -104,7 +104,7 @@ content:
         description: | # this will include new lines to allow paragraphs
           Joined as an Associate Software Engineer straight out of undergraduate studies, and earned a promotion within 1.5 years for the quality of my work on a Data Quality Framework project and a US regulatory requirement in a healthcare transparency project.
 
-          Served as lead developer for the aforementioned regulatory project, also assisting in various other side projects like audits for new data management software, healthcare data augmentation and analysis, and so on.
+          Served as lead developer for a US regulatory project for transparency in healthcare costs, also assisting in various other side projects like audits for new data management software, healthcare data augmentation and analysis, and so on.
 
       - layout: top-middle
         title: National Informatics Centre
@@ -115,7 +115,7 @@ content:
         description: | # this will include new lines to allow paragraphs
           Served an industrial internship in the Application Security division of NIC under the Ministry of Electronics and Information Technology, Government of India.
           
-          Worked on website security as mentioned above, with my work serving as a module that fed into a larger automated alert system.
+          Worked on website security in using secure protocol ciphersuites, with my work serving as a module that fed into a larger automated alert system.
 
   - title: Projects # Title for the section
     section: Projects
