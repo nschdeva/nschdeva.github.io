@@ -74,8 +74,8 @@ content:
     content:
       - layout: top-middle
         title: Georgia Institute of Technology
-        sub_title: MS Computer Science
-        caption: August 2023 - current
+        sub_title: 'MS Computer Science [Specialization: Machine Learning]'
+        caption: August 2023 - December 2024
         quote: >
           Transforming Tomorrow - Georgia Tech
         description: | # this will include new lines to allow paragraphs
@@ -228,14 +228,13 @@ content:
         - Certification
           - Azure Data Fundamentals [DP-900] Microsoft Certified: June 2022
         - Programming
-          - Java, Scala, Spark, C/C++, Python, Go, Kotlin, JavaScript, ExpressJS, SQL, LATEX, HTML, CSS, PHP, GraphQL, REST API, OpenAPI
+          - Python [Tensorflow, PyTorch], Java, C/C++, Scala Spark, PySpark, SQL, LATEX, GraphQL, REST API, OpenAPI
         - Applications
-          - AbInitio, Databricks, Jupyter, Grafana, PowerBI, Tableau, JetBrains IDEA, PyCharm, VS Code, MATLAB/SciLab, RStudio
-        - Databases & Servers
-          - MySQL, PostgreSQL, MongoDB, Apache, Netezza, IBM AS/400
+          - Databricks, Grafana, PowerBI, Tableau, AbInitio, Jupyter, JetBrains IDEA, PyCharm, VS Code, MATLAB/SciLab
+        - Database Servers
+          - MySQL, PostgreSQL, MongoDB, Netezza, IBM AS/400
         - Soft Skills
-          - Highly adaptable, quick-learner, time management, detail-oriented, critical-thinking, team player, creative, leadership, problem-solving, excellent communication skills
-
+          - Leadership, problem-solving, analytical, creative, time management, communication skills, team player, detail-oriented, quick-thinking, highly adaptable to new technologies, quick-learner
 
 # Footer
 footer_show_references: true
