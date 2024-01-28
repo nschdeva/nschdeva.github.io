@@ -230,7 +230,7 @@ content:
         - Programming
           - Python [Tensorflow, PyTorch], Java, C/C++, Scala Spark, PySpark, SQL, LATEX, GraphQL, REST API, OpenAPI
         - Applications
-          - Databricks, Grafana, PowerBI, Tableau, AbInitio, Jupyter, JetBrains IDEA, PyCharm, VS Code, MATLAB/SciLab
+          - Git, Databricks, Grafana, PowerBI, Tableau, AbInitio, Jupyter, JetBrains IDEA, PyCharm, VS Code, MATLAB/SciLab
         - Database Servers
           - MySQL, PostgreSQL, MongoDB, Netezza, IBM AS/400
         - Soft Skills
